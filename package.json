@@ -1,0 +1,56 @@
+{
+  "name": "react-twilio-chat",
+  "version": "0.0.1",
+  "description": "A react component for twilio chat",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mengnans/react-twilio.git"
+  },
+  "keywords": [
+    "react",
+    "react-twilio",
+    "twilio",
+    "react-chat",
+    "twilio-chat"
+  ],
+  "author": "Mengnan Shi & Ximan Wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mengnans/react-twilio/issues"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --open --mode development",
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  },
+  "homepage": "https://github.com/mengnans/react-twilio#readme",
+  "devDependencies": {
+    "@babel/runtime": "^7.8.4",
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.6.2",
+    "@babel/plugin-transform-arrow-functions": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "browser-sync": "^2.26.5",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "file-loader": "^4.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.8.0",
+    "webpack-notifier": "^1.7.0"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "twilio": "^3.39.5",
+    "twilio-chat": "^3.3.4"
+  }
+}
